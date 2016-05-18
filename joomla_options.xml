@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.0" type="plugin" group="system" method="upgrade">
-    <name>Joomla Options</name>
+    <name>PLG_JOOMLA_OPTIONS</name>
     <author>Fedor Vlasenko</author>
     <creationDate>Mart 2013</creationDate>
     <copyright>Copyright (C) 2013 Fregate Studio.</copyright>
@@ -8,7 +8,7 @@
     <authorEmail>vlasenkofedor@mail.ru</authorEmail>
     <authorUrl>fregate.org.ua</authorUrl>
     <version>0.0.1</version>
-    <description>Сonfiguration, options in Joomla</description>
+    <description>PLG_JOOMLA_OPTIONS_XML_DESCRIPTION</description>
     <files>
         <filename plugin="joomla_options">joomla_options.php</filename>
         <filename>index.html</filename>
@@ -20,21 +20,29 @@
         <fields name="params">
             <fieldset name="basic">
                 <field name="disable_mootools" type="radio" class="btn-group" default="0"
-                       description="Disable mootools in site" label="Mootools disable">
+                       description="PLG_JOOMLA_OPTIONS_MOOTOOLS_DESC" label="PLG_JOOMLA_OPTIONS_MOOTOOLS_LBL">
                     <option value="0">JNO</option>
                     <option value="1">JYES</option>
                 </field>
                 <field name="disable_jquery" type="radio" class="btn-group" default="0"
-                       description="Disable jquery in site" label="Jquery disable">
+                       description="PLG_JOOMLA_OPTIONS_JQUERY_DESC" label="PLG_JOOMLA_OPTIONS_JQUERY_LBL">
                     <option value="0">JNO</option>
                     <option value="1">JYES</option>
                 </field>
                 <field name="disable_bootstrap" type="radio" class="btn-group" default="0"
-                       description="Disable bootstrap in site" label="Bootstrap disable">
+                       description="PLG_JOOMLA_OPTIONS_BOOTSTRAP_DESC" label="PLG_JOOMLA_OPTIONS_BOOTSTRAP_LBL">
                     <option value="0">JNO</option>
                     <option value="1">JYES</option>
                 </field>
             </fieldset>
         </fields>
     </config>
+	<languages folder="languages">
+		<language tag="en-GB">en-GB/en-GB.plg_system_joomla_options.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_system_joomla_options.sys.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.plg_system_joomla_options.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.plg_system_joomla_options.sys.ini</language>
+		<language tag="ru-RU">uk-UA/uk-UA.plg_system_joomla_options.ini</language>
+		<language tag="ru-RU">uk-UA/uk-UA.plg_system_joomla_options.sys.ini</language>
+	</languages>
 </extension>
