@@ -42,7 +42,7 @@
 		<language tag="en-GB">en-GB/en-GB.plg_system_joomla_options.sys.ini</language>
 		<language tag="ru-RU">ru-RU/ru-RU.plg_system_joomla_options.ini</language>
 		<language tag="ru-RU">ru-RU/ru-RU.plg_system_joomla_options.sys.ini</language>
-		<language tag="ru-RU">uk-UA/uk-UA.plg_system_joomla_options.ini</language>
-		<language tag="ru-RU">uk-UA/uk-UA.plg_system_joomla_options.sys.ini</language>
+		<language tag="uk-UA">uk-UA/uk-UA.plg_system_joomla_options.ini</language>
+		<language tag="uk-UA">uk-UA/uk-UA.plg_system_joomla_options.sys.ini</language>
 	</languages>
 </extension>
